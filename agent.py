@@ -604,20 +604,33 @@ button.primary:hover{{background:var(--accent2)}}
   .chart-wrap{{padding:14px}}
   .form-grid{{grid-template-columns:1fr 1fr}}
   .indicator-grid{{grid-template-columns:repeat(3,1fr)}}
+  /* Analyse page: stack stock selector vertically */
+  #page-analyse>div:first-child{{flex-direction:column;align-items:stretch}}
+  #stock-select{{width:100%;font-size:.9rem}}
+  /* Chat panel: full-width on narrow screens */
+  #chat-panel{{right:0;left:0;width:100%;border-radius:16px 16px 0 0;bottom:0}}
+  #chat-fab{{bottom:72px;right:16px}}
+  /* Macro grid: 2 columns on phone */
+  .macro-grid{{grid-template-columns:1fr 1fr}}
+  /* Portfolio add-form: single column on phone */
+  .form-grid{{grid-template-columns:1fr}}
   /* Bottom nav */
   .bottom-nav{{
     display:flex!important;
     position:fixed;bottom:0;left:0;right:0;
     background:#1e3a5f;border-top:1px solid rgba(255,255,255,.15);
-    z-index:1000;padding-bottom:env(safe-area-inset-bottom)
+    z-index:1000;padding-bottom:env(safe-area-inset-bottom);
+    overflow-x:auto;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none
   }}
+  .bottom-nav::-webkit-scrollbar{{display:none}}
   .bnav-item{{
-    flex:1;display:flex;flex-direction:column;align-items:center;
-    padding:10px 4px 8px;color:rgba(255,255,255,.6);
-    font-size:.6rem;font-weight:600;cursor:pointer;text-transform:uppercase;
+    flex:0 0 auto;min-width:60px;display:flex;flex-direction:column;align-items:center;
+    padding:10px 6px 8px;color:rgba(255,255,255,.6);
+    font-size:.58rem;font-weight:600;cursor:pointer;text-transform:uppercase;
     letter-spacing:.3px;gap:3px;border:none;background:none;
   }}
-  .bnav-item .icon{{font-size:1.25rem;line-height:1}}
+  .bnav-item .icon{{font-size:1.2rem;line-height:1}}
   .bnav-item.active{{color:#fff}}
   .bnav-item.active .icon{{filter:drop-shadow(0 0 4px rgba(255,255,255,.5))}}
 }}
@@ -716,6 +729,9 @@ button.primary:hover{{background:var(--accent2)}}
   <button class="bnav-item" id="bn-signaler" onclick="showTab('signaler','bn-signaler')">
     <span class="icon">🎯</span>Signaler
   </button>
+  <button class="bnav-item" id="bn-analyse" onclick="showTab('analyse','bn-analyse')">
+    <span class="icon">📉</span>Analyse
+  </button>
   <button class="bnav-item" id="bn-portefolje" onclick="showTab('portefolje','bn-portefolje')">
     <span class="icon">💼</span>Portefølje
   </button>
@@ -724,9 +740,6 @@ button.primary:hover{{background:var(--accent2)}}
   </button>
   <button class="bnav-item" id="bn-makro" onclick="showTab('makro','bn-makro')">
     <span class="icon">🌍</span>Makro
-  </button>
-  <button class="bnav-item" onclick="toggleChat()">
-    <span class="icon">💬</span>AI Chat
   </button>
 </nav>
 
@@ -802,11 +815,11 @@ button.primary:hover{{background:var(--accent2)}}
 <div id="page-signaler" class="page">
   <div class="card" style="margin-bottom:16px">
     <div class="section-title">🎯 Alle signaler – fullstendig analyse</div>
-    <table><thead><tr>
+    <div class="table-wrap"><table><thead><tr>
       <th>Aksje</th><th>Sektor</th><th>Kurs (NOK)</th><th>Endring%</th>
       <th>RSI</th><th>Signal</th><th>Score</th><th>Forsl. NOK</th>
     </tr></thead>
-    <tbody id="signals-full"></tbody></table>
+    <tbody id="signals-full"></tbody></table></div>
   </div>
   <div class="card">
     <div class="section-title">💡 Begrunnelser</div>
@@ -1485,6 +1498,7 @@ function saveCapital() {{
   closeCapitalModal();
   renderSummaryCards();
   renderPortfolio();
+  renderPortMini();
   alert("✅ Kapital oppdatert!");
 }}
 // Close modal on background click
@@ -1932,7 +1946,7 @@ def main():
                  "SELG": "🔴", "STERKT SELG": "🔴🔴"}.get(sig["signal"], "❓")
         print(f"      {badge} {sig['signal']:15s} score={sig['score']:+.0f}  RSI={sig['indicators'].get('rsi', '–')}")
 
-    # ── Macro data ─────────────────────────────────────────────────────────
+    # ── Macro data ─────────────────────────────────────────────────────
     print("\n🌍 Henter makrodata...")
     for mc in macro_config:
         sym  = mc["symbol"]
@@ -1955,7 +1969,7 @@ def main():
         chg = (price / prev_close - 1) * 100 if prev_close else 0
         print(f"   {sym:12s} {price:10.2f}  {chg:+.2f}%")
 
-    # ── Update portfolio ───────────────────────────────────────────────────
+    # ── Update portfolio ─────────────────────────────────────────────────────
     portfolio = update_portfolio_values(portfolio, quotes)
     alerts    = check_stop_loss_take_profit(portfolio)
     results["alerts"] = alerts
@@ -1964,13 +1978,13 @@ def main():
         for a in alerts:
             print(f"   {a}")
 
-    # ── Save results & history ─────────────────────────────────────────────
+    # ── Save results & history ──────────────────────────────────────────────────
     save_json(RESULTS_FILE, results)
     save_json(PORTFOLIO_FILE, portfolio)
     history = update_portfolio_history(portfolio)
     print(f"   📅 Historikk: {len(history.get('snapshots',[]))} daglige snapshots lagret")
 
-    # ── Generate HTML dashboard ────────────────────────────────────────────
+    # ── Generate HTML dashboard ───────────────────────────────────────────────
     html = generate_html_dashboard(results, portfolio, history, auth=auth_cfg)
     with open(DASHBOARD_FILE, "w", encoding="utf-8") as f:
         f.write(html)
@@ -1979,7 +1993,7 @@ def main():
     print(f"   📁 Resultater: {RESULTS_FILE.name}")
     print(f"   📊 Dashboard:  {DASHBOARD_FILE.name}  ← åpne i nettleser")
 
-    # ── Top picks summary ──────────────────────────────────────────────────
+    # ── Top picks summary ──────────────────────────────────────────────────────
     buys  = [s for s in results["stocks"] if s["signal"] in ("STERKT KJØP", "KJØP")]
     sells = [s for s in results["stocks"] if s["signal"] in ("STERKT SELG", "SELG")]
     buys.sort(key=lambda x: -x["score"])
