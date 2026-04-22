@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "description": "Oslo Bors watchlist for AI Finansradgiver",
+    "currency": "NOK",
+    "exchange": "Oslo Bors (OSE)",
+    "last_updated": "2026-04-22",
+    "note": "Symboler bruker Yahoo Finance-format med .OL-suffiks. Alle symboler er verifisert mot Yahoo Finance."
+  },
+  "stocks": [
+
+    { "symbol": "EQNR.OL",   "name": "Equinor",               "sector": "Energi",            "market_cap": "large" },
+    { "symbol": "AKERBP.OL", "name": "Aker BP",                "sector": "Olje & Gass",       "market_cap": "large" },
+    { "symbol": "VAR.OL",    "name": "Var Energi",             "sector": "Olje & Gass",       "market_cap": "large" },
+    { "symbol": "DNO.OL",    "name": "DNO ASA",                "sector": "Olje & Gass",       "market_cap": "mid"   },
+    { "symbol": "OKEA.OL",   "name": "OKEA ASA",               "sector": "Olje & Gass",       "market_cap": "mid"   },
+
+    { "symbol": "SUBC.OL",   "name": "Subsea 7",               "sector": "Oljeservice",       "market_cap": "large" },
+    { "symbol": "AKSO.OL",   "name": "Aker Solutions",         "sector": "Oljeservice",       "market_cap": "mid"   },
+    { "symbol": "TGS.OL",    "name": "TGS ASA",                "sector": "Seismikk",          "market_cap": "mid"   },
+    { "symbol": "PGS.OL",    "name": "PGS",                    "sector": "Seismikk",          "market_cap": "mid"   },
+    { "symbol": "EMGS.OL",   "name": "EMGS",                   "sector": "Seismikk",          "market_cap": "small" },
+    { "symbol": "BORR.OL",   "name": "Borr Drilling",          "sector": "Boring",            "market_cap": "mid"   },
+    { "symbol": "BWO.OL",    "name": "BW Offshore",            "sector": "Offshore",          "market_cap": "mid"   },
+    { "symbol": "DOFG.OL",   "name": "DOF Group",              "sector": "Offshore",          "market_cap": "mid"   },
+
+    { "symbol": "FLNG.OL",   "name": "Flex LNG",               "sector": "LNG Shipping",      "market_cap": "mid"   },
+    { "symbol": "BWLPG.OL",  "name": "BW LPG",                 "sector": "LPG Shipping",      "market_cap": "mid"   },
+    { "symbol": "FRO.OL",    "name": "Frontline",              "sector": "Tanker Shipping",   "market_cap": "large" },
+    { "symbol": "HAFNI.OL",  "name": "Hafnia",                 "sector": "Tanker Shipping",   "market_cap": "mid"   },
+    { "symbol": "ODF.OL",    "name": "Odfjell SE",             "sector": "Kjemikalietanker",  "market_cap": "mid"   },
+    { "symbol": "GOGL.OL",   "name": "Golden Ocean Group",     "sector": "Bulk Shipping",     "market_cap": "mid"   },
+    { "symbol": "2020.OL",   "name": "2020 Bulkers",           "sector": "Bulk Shipping",     "market_cap": "small" },
+    { "symbol": "MPCC.OL",   "name": "MPC Container Ships",    "sector": "Container Shipping","market_cap": "mid"   },
+    { "symbol": "HAUTO.OL",  "name": "Hoegh Autoliners",       "sector": "Bil Shipping",      "market_cap": "mid"   },
+
+    { "symbol": "NAS.OL",    "name": "Norwegian Air Shuttle",  "sector": "Luftfart",          "market_cap": "mid"   },
+
+    { "symbol": "DNB.OL",    "name": "DNB Bank",               "sector": "Bank",              "market_cap": "large" },
+    { "symbol": "STB.OL",    "name": "Storebrand",             "sector": "Forsikring",        "market_cap": "large" },
+    { "symbol": "GJF.OL",    "name": "Gjensidige Forsikring",  "sector": "Forsikring",        "market_cap": "large" },
+    { "symbol": "SRBNK.OL",  "name": "SpareBank 1 SR-Bank",    "sector": "Bank",              "market_cap": "mid"   },
+    { "symbol": "MING.OL",   "name": "SpareBank 1 SMN",        "sector": "Bank",              "market_cap": "mid"   },
+    { "symbol": "NONG.OL",   "name": "SpareBank 1 Nord-Norge", "sector": "Bank",              "market_cap": "mid"   },
+    { "symbol": "PROT.OL",   "name": "Protector Forsikring",   "sector": "Forsikring",        "market_cap": "mid"   },
+
+    { "symbol": "MOWI.OL",   "name": "Mowi",                   "sector": "Sjoemat",           "market_cap": "large" },
+    { "symbol": "SALM.OL",   "name": "SalMar",                 "sector": "Sjoemat",           "market_cap": "large" },
+    { "symbol": "LSG.OL",    "name": "Leroey Seafood",         "sector": "Sjoemat",           "market_cap": "large" },
+    { "symbol": "BAKKA.OL",  "name": "Bakkafrost",             "sector": "Sjoemat",           "market_cap": "large" },
+    { "symbol": "AUSS.OL",   "name": "Austevoll Seafood",      "sector": "Sjoemat",           "market_cap": "mid"   },
+    { "symbol": "GRIEG.OL",  "name": "Grieg Seafood",          "sector": "Sjoemat",           "market_cap": "mid"   },
+    { "symbol": "NRS.OL",    "name": "Norway Royal Salmon",    "sector": "Sjoemat",           "market_cap": "small" },
+    { "symbol": "AKVA.OL",   "name": "AKVA Group",             "sector": "Havbruksteknologi", "market_cap": "small" },
+    { "symbol": "AKBM.OL",   "name": "Aker BioMarine",         "sector": "Marin Biotek",      "market_cap": "mid"   },
+
+    { "symbol": "NHY.OL",    "name": "Norsk Hydro",            "sector": "Aluminium",         "market_cap": "large" },
+    { "symbol": "YAR.OL",    "name": "Yara International",     "sector": "Gjodsel/Kjemi",     "market_cap": "large" },
+    { "symbol": "KOG.OL",    "name": "Kongsberg Gruppen",      "sector": "Forsvar/Tech",      "market_cap": "large" },
+    { "symbol": "AKER.OL",   "name": "Aker ASA",               "sector": "Industri",          "market_cap": "large" },
+    { "symbol": "ORK.OL",    "name": "Orkla",                  "sector": "Forbruksvarer",     "market_cap": "large" },
+    { "symbol": "AFG.OL",    "name": "AF Gruppen",             "sector": "Bygg & Anlegg",     "market_cap": "mid"   },
+    { "symbol": "MULTI.OL",  "name": "Multiconsult",           "sector": "Radgivning",        "market_cap": "mid"   },
+    { "symbol": "HEX.OL",    "name": "Hexagon Composites",     "sector": "Kompositter",       "market_cap": "mid"   },
+    { "symbol": "NSKOG.OL",  "name": "Norske Skog",            "sector": "Papir/Skog",        "market_cap": "mid"   },
+
+    { "symbol": "ENTRA.OL",  "name": "Entra",                  "sector": "Eiendom",           "market_cap": "mid"   },
+    { "symbol": "BONHR.OL",  "name": "Bonheur",                "sector": "Fornybar/Diversif", "market_cap": "mid"   },
+
+    { "symbol": "TEL.OL",    "name": "Telenor",                "sector": "Telekommunikasjon", "market_cap": "large" },
+    { "symbol": "SCHA.OL",   "name": "Schibsted A",            "sector": "Medier/Tech",       "market_cap": "large" },
+    { "symbol": "OPERA.OL",  "name": "Opera Software",         "sector": "Tech",              "market_cap": "mid"   },
+
+    { "symbol": "NOD.OL",    "name": "Nordic Semiconductor",   "sector": "Halvledere",        "market_cap": "mid"   },
+    { "symbol": "TOM.OL",    "name": "Tomra Systems",          "sector": "Teknologi",         "market_cap": "mid"   },
+    { "symbol": "ATEA.OL",   "name": "Atea",                   "sector": "IT-distribusjon",   "market_cap": "mid"   },
+    { "symbol": "BOUV.OL",   "name": "Bouvet",                 "sector": "IT-tjenester",      "market_cap": "mid"   },
+    { "symbol": "CRAYON.OL", "name": "Crayon Group",           "sector": "IT-tjenester",      "market_cap": "mid"   },
+    { "symbol": "KAHOT.OL",  "name": "Kahoot!",                "sector": "EdTech",            "market_cap": "mid"   },
+
+    { "symbol": "NEL.OL",    "name": "Nel ASA",                "sector": "Hydrogen",          "market_cap": "mid"   },
+    { "symbol": "SCATC.OL",  "name": "Scatec",                 "sector": "Fornybar energi",   "market_cap": "mid"   },
+    { "symbol": "REC.OL",    "name": "REC Silicon",            "sector": "Solenergi",         "market_cap": "mid"   }
+  ],
+  "macro": [
+    { "symbol": "BZ=F",      "name": "Brent raolje (USD/fat)", "type": "raavare" },
+    { "symbol": "USDNOK=X",  "name": "USD/NOK valutakurs",     "type": "valuta"  },
+    { "symbol": "EURNOK=X",  "name": "EUR/NOK valutakurs",     "type": "valuta"  },
+    { "symbol": "GC=F",      "name": "Gull (USD/oz)",          "type": "raavare" },
+    { "symbol": "^OSEBX",    "name": "Oslo Bors Benchmark",    "type": "indeks"  },
+    { "symbol": "^OSEAX",    "name": "Oslo Bors All Share",    "type": "indeks"  },
+    { "symbol": "^GSPC",     "name": "S&P 500",                "type": "indeks"  }
+  ],
+  "settings": {
+    "lookback_days": 90,
+    "rsi_period": 14,
+    "sma_short": 20,
+    "sma_long": 50,
+    "macd_fast": 12,
+    "macd_slow": 26,
+    "macd_signal": 9,
+    "bollinger_period": 20,
+    "bollinger_std": 2,
+    "signal_thresholds": {
+      "strong_buy": 40,
+      "buy": 20,
+      "sell": -20,
+      "strong_sell": -40
+    },
+    "auth": {
+      "username": "eyvind",
+      "password": "oslo2026"
+    }
+  }
+}
