@@ -23,12 +23,11 @@ permissions:
   pages: write      # needed for GitHub Pages deployment
   id-token: write
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   # opt into Node.js 24 now (required from June 2026)
-
 jobs:
   analyse:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   # opt into Node.js 24 (required from June 2026)
 
     steps:
       - name: Hent kode fra GitHub
@@ -57,3 +56,4 @@ jobs:
           git add dashboard.html analysis_results.json portfolio.json portfolio_history.json || true
           git diff --staged --quiet && echo "Ingen endringer" || git commit -m "Auto: analyse $(date +'%d.%m.%Y %H:%M UTC')"
           git push || true
+
