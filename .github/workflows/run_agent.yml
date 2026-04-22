@@ -1,0 +1,56 @@
+name: AI Finansradgiver - Daglig analyse
+
+on:
+  # Runs Mon-Fri at 08, 10, 12, 14, 16 Oslo time (UTC+1 winter = UTC+2 summer)
+  # Using UTC+1 (winter/CET): 07,09,11,13,15 UTC  — covers both winter and summer adequately
+  schedule:
+    - cron: '0 7 * * 1-5'
+    - cron: '0 9 * * 1-5'
+    - cron: '0 11 * * 1-5'
+    - cron: '0 13 * * 1-5'
+    - cron: '0 15 * * 1-5'
+
+  # Allows manual trigger from GitHub website or mobile app
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Grunn (valgfritt)'
+        required: false
+        default: 'Manuell kjoering'
+
+permissions:
+  contents: write   # needed to commit results back to repo
+  pages: write      # needed for GitHub Pages deployment
+  id-token: write
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hent kode fra GitHub
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sett opp Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Installer pakker
+        run: pip install -r requirements.txt
+
+      - name: Kjor AI-analyse
+        run: python agent.py
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Lagre resultater tilbake til GitHub
+        run: |
+          git config user.name  "AI Finansradgiver Bot"
+          git config user.email "action@github.com"
+          git add dashboard.html analysis_results.json portfolio.json portfolio_history.json || true
+          git diff --staged --quiet && echo "Ingen endringer" || git commit -m "Auto: analyse $(date +'%d.%m.%Y %H:%M UTC')"
+          git push || true
