@@ -1,25 +1,24 @@
 {
-  "generated_at": "29.04.2026 12:12",
+  "generated_at": "29.04.2026 15:17",
   "stocks": [
     {
       "symbol": "EQNR.OL",
       "name": "Equinor",
       "sector": "Energi",
-      "price": 368.7,
+      "price": 368.0,
       "prev_close": 360.9,
-      "signal": "KJØP",
-      "score": 22,
-      "suggested_pct": 14.0,
-      "suggested_nok": 10500,
-      "rationale": "Kjøpssignal: kurs > sma20 > sma50. I tillegg kurs krysset over sma20 i dag (+10).",
+      "signal": "HOLD",
+      "score": -16,
+      "suggested_pct": 0,
+      "suggested_nok": 0,
+      "rationale": "Hold – mixed signaler, ingen klar retning (score -16).",
       "reasons": [
-        "Kurs > SMA20 > SMA50 – opptrend (+20)",
-        "Kurs krysset over SMA20 i dag (+10)",
+        "Kurs under SMA20 (–8)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 45.5,
-      "atr_pct": 3.78,
-      "pe_ratio": 20.358917,
+      "rsi": 45.2,
+      "atr_pct": 3.84,
+      "pe_ratio": 20.320265,
       "div_yield_pct": 409.99999999999994,
       "history": [
         {
@@ -497,10 +496,10 @@
         {
           "date": "2026-04-29",
           "open": 362.8,
-          "high": 368.9,
+          "high": 371.8,
           "low": 362.4,
-          "close": 368.7,
-          "volume": 1173266
+          "close": 368.0,
+          "volume": 3595815
         }
       ]
     },
@@ -508,7 +507,7 @@
       "symbol": "VAR.OL",
       "name": "Var Energi",
       "sector": "Olje & Gass",
-      "price": 46.81,
+      "price": 46.25,
       "prev_close": 46.28,
       "signal": "HOLD",
       "score": 12,
@@ -519,9 +518,9 @@
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 53.4,
-      "atr_pct": 3.49,
-      "pe_ratio": 18.575397,
+      "rsi": 50.9,
+      "atr_pct": 3.53,
+      "pe_ratio": 18.353174,
       "div_yield_pct": 1049.0,
       "history": [
         {
@@ -1000,9 +999,9 @@
           "date": "2026-04-29",
           "open": 46.57,
           "high": 46.98,
-          "low": 46.32,
-          "close": 46.81,
-          "volume": 1968702
+          "low": 46.25,
+          "close": 46.25,
+          "volume": 5285731
         }
       ]
     },
@@ -1010,7 +1009,7 @@
       "symbol": "DNO.OL",
       "name": "DNO ASA",
       "sector": "Olje & Gass",
-      "price": 19.7,
+      "price": 19.72,
       "prev_close": 19.44,
       "signal": "KJØP",
       "score": 22,
@@ -1022,8 +1021,8 @@
         "Kurs krysset over SMA20 i dag (+10)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 52.9,
-      "atr_pct": 3.43,
+      "rsi": 53.1,
+      "atr_pct": 3.46,
       "pe_ratio": null,
       "div_yield_pct": 772.0,
       "history": [
@@ -1502,10 +1501,10 @@
         {
           "date": "2026-04-29",
           "open": 19.5,
-          "high": 19.74,
+          "high": 19.84,
           "low": 19.4,
-          "close": 19.7,
-          "volume": 1298438
+          "close": 19.72,
+          "volume": 3719026
         }
       ]
     },
@@ -1513,19 +1512,21 @@
       "symbol": "OKEA.OL",
       "name": "OKEA ASA",
       "sector": "Olje & Gass",
-      "price": 39.5,
+      "price": 38.3,
       "prev_close": 40.75,
-      "signal": "HOLD",
-      "score": 0,
+      "signal": "STERKT SELG",
+      "score": -48,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – mixed signaler, ingen klar retning (score +0).",
+      "rationale": "Sterkt salgssignal: kurs under sma20 (–8). Vurder å redusere posisjon.",
       "reasons": [
-        "Kurs > SMA20 > SMA50 – opptrend (+20)",
-        "MACD histogram negativt og fallende (–20)"
+        "Kurs under SMA20 (–8)",
+        "Kurs krysset under SMA20 i dag (–10)",
+        "MACD histogram negativt og fallende (–20)",
+        "Høyt volum på nedgang (1.6x snitt) (–10)"
       ],
-      "rsi": 54.6,
-      "atr_pct": 4.47,
+      "rsi": 49.2,
+      "atr_pct": 4.89,
       "pe_ratio": null,
       "div_yield_pct": 0,
       "history": [
@@ -2005,9 +2006,9 @@
           "date": "2026-04-29",
           "open": 40.65,
           "high": 40.95,
-          "low": 39.35,
-          "close": 39.5,
-          "volume": 624476
+          "low": 37.85,
+          "close": 38.3,
+          "volume": 1134519
         }
       ]
     },
@@ -2015,22 +2016,20 @@
       "symbol": "SUBC.OL",
       "name": "Subsea 7",
       "sector": "Oljeservice",
-      "price": 329.8,
+      "price": 325.0,
       "prev_close": 330.0,
-      "signal": "HOLD",
-      "score": 10,
-      "suggested_pct": 0,
-      "suggested_nok": 0,
-      "rationale": "Hold – RSI 61, noe overkjøpt men ikke klart salgssignal.",
+      "signal": "STERKT KJØP",
+      "score": 40,
+      "suggested_pct": 17.0,
+      "suggested_nok": 14500,
+      "rationale": "Sterkt kjøpssignal: kurs > sma20 > sma50. Støttes av macd histogram positivt og stigende (+20).",
       "reasons": [
-        "RSI 61 – overkjøpt (–15)",
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
-        "MACD histogram positivt og stigende (+20)",
-        "Kurs nær øvre Bollinger-band (0.98) (–15)"
+        "MACD histogram positivt og stigende (+20)"
       ],
-      "rsi": 60.7,
-      "atr_pct": 3.24,
-      "pe_ratio": 25.645412,
+      "rsi": 57.2,
+      "atr_pct": 3.28,
+      "pe_ratio": 25.272161,
       "div_yield_pct": 593.0,
       "history": [
         {
@@ -2510,8 +2509,8 @@
           "open": 325.0,
           "high": 334.0,
           "low": 323.8,
-          "close": 329.8,
-          "volume": 280091
+          "close": 325.0,
+          "volume": 702835
         }
       ]
     },
@@ -2519,22 +2518,21 @@
       "symbol": "AKSO.OL",
       "name": "Aker Solutions",
       "sector": "Oljeservice",
-      "price": 40.9,
+      "price": 40.74,
       "prev_close": 39.94,
       "signal": "HOLD",
-      "score": -18,
+      "score": -3,
       "suggested_pct": 0,
       "suggested_nok": 0,
       "rationale": "Hold – RSI 63, noe overkjøpt men ikke klart salgssignal.",
       "reasons": [
         "RSI 63 – overkjøpt (–15)",
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
-        "MACD histogram negativt (–8)",
-        "Kurs nær øvre Bollinger-band (0.95) (–15)"
+        "MACD histogram negativt (–8)"
       ],
-      "rsi": 63.4,
-      "atr_pct": 3.12,
-      "pe_ratio": 7.746212,
+      "rsi": 62.6,
+      "atr_pct": 3.13,
+      "pe_ratio": 7.715909,
       "div_yield_pct": 902.0,
       "history": [
         {
@@ -3014,8 +3012,8 @@
           "open": 41.0,
           "high": 41.4,
           "low": 40.56,
-          "close": 40.9,
-          "volume": 504598
+          "close": 40.74,
+          "volume": 1127448
         }
       ]
     },
@@ -3023,21 +3021,21 @@
       "symbol": "TGS.OL",
       "name": "TGS ASA",
       "sector": "Seismikk",
-      "price": 150.0,
+      "price": 147.6,
       "prev_close": 149.6,
       "signal": "HOLD",
       "score": -2,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 80, noe overkjøpt men ikke klart salgssignal.",
+      "rationale": "Hold – RSI 76, noe overkjøpt men ikke klart salgssignal.",
       "reasons": [
-        "RSI 80 – kraftig overkjøpt (–30)",
+        "RSI 76 – kraftig overkjøpt (–30)",
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
         "MACD histogram positivt (+8)"
       ],
-      "rsi": 80.5,
-      "atr_pct": 3.3,
-      "pe_ratio": 178.57144,
+      "rsi": 76.2,
+      "atr_pct": 3.42,
+      "pe_ratio": 175.7143,
       "div_yield_pct": 413.99999999999994,
       "history": [
         {
@@ -3516,9 +3514,9 @@
           "date": "2026-04-29",
           "open": 151.5,
           "high": 152.0,
-          "low": 149.1,
-          "close": 150.0,
-          "volume": 282263
+          "low": 147.7,
+          "close": 147.6,
+          "volume": 724416
         }
       ]
     },
@@ -3526,20 +3524,19 @@
       "symbol": "EMGS.OL",
       "name": "EMGS",
       "sector": "Seismikk",
-      "price": 0.24,
+      "price": 0.25,
       "prev_close": 0.26,
       "signal": "HOLD",
-      "score": 3,
+      "score": 0,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 38 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 43 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 38 – oversolgt (+15)",
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
-        "MACD histogram positivt (+8)"
+        "MACD histogram positivt og stigende (+20)"
       ],
-      "rsi": 37.8,
-      "atr_pct": 9.78,
+      "rsi": 42.9,
+      "atr_pct": 9.23,
       "pe_ratio": null,
       "div_yield_pct": 0,
       "history": [
@@ -4020,8 +4017,8 @@
           "open": 0.25,
           "high": 0.25,
           "low": 0.2,
-          "close": 0.24,
-          "volume": 1190344
+          "close": 0.25,
+          "volume": 1331357
         }
       ]
     },
@@ -4029,7 +4026,7 @@
       "symbol": "BORR.OL",
       "name": "Borr Drilling",
       "sector": "Boring",
-      "price": 57.5,
+      "price": 57.91,
       "prev_close": 55.0,
       "signal": "STERKT KJØP",
       "score": 40,
@@ -4040,9 +4037,9 @@
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
         "MACD histogram positivt og stigende (+20)"
       ],
-      "rsi": 52.3,
-      "atr_pct": 4.78,
-      "pe_ratio": 36.16352,
+      "rsi": 53.4,
+      "atr_pct": 4.88,
+      "pe_ratio": 36.421383,
       "div_yield_pct": 0,
       "history": [
         {
@@ -4520,10 +4517,10 @@
         {
           "date": "2026-04-29",
           "open": 55.84,
-          "high": 57.5,
+          "high": 58.6,
           "low": 55.75,
-          "close": 57.5,
-          "volume": 27605
+          "close": 57.91,
+          "volume": 54479
         }
       ]
     },
@@ -4543,7 +4540,7 @@
         "MACD histogram positivt og stigende (+20)"
       ],
       "rsi": 48.3,
-      "atr_pct": 2.47,
+      "atr_pct": 2.48,
       "pe_ratio": 7.4782605,
       "div_yield_pct": 1387.0,
       "history": [
@@ -5022,10 +5019,10 @@
         {
           "date": "2026-04-29",
           "open": 50.6,
-          "high": 51.6,
+          "high": 51.7,
           "low": 50.6,
           "close": 51.6,
-          "volume": 48139
+          "volume": 88324
         }
       ]
     },
@@ -5033,20 +5030,21 @@
       "symbol": "DOFG.OL",
       "name": "DOF Group",
       "sector": "Offshore",
-      "price": 136.0,
+      "price": 133.9,
       "prev_close": 136.1,
-      "signal": "SELG",
-      "score": -28,
+      "signal": "HOLD",
+      "score": -13,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Salgssignal (score -28): kurs under sma20 (–8).",
+      "rationale": "Hold – RSI 38 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
+        "RSI 38 – oversolgt (+15)",
         "Kurs under SMA20 (–8)",
         "MACD histogram negativt og fallende (–20)"
       ],
-      "rsi": 42.1,
-      "atr_pct": 2.48,
-      "pe_ratio": 7.714124,
+      "rsi": 37.7,
+      "atr_pct": 2.58,
+      "pe_ratio": 7.5950084,
       "div_yield_pct": 961.9999999999999,
       "history": [
         {
@@ -5525,9 +5523,9 @@
           "date": "2026-04-29",
           "open": 136.0,
           "high": 137.6,
-          "low": 135.7,
-          "close": 136.0,
-          "volume": 102921
+          "low": 134.2,
+          "close": 133.9,
+          "volume": 271096
         }
       ]
     },
@@ -5535,22 +5533,22 @@
       "symbol": "BWLPG.OL",
       "name": "BW LPG",
       "sector": "LPG Shipping",
-      "price": 188.0,
+      "price": 186.7,
       "prev_close": 181.9,
       "signal": "HOLD",
       "score": 10,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 64, noe overkjøpt men ikke klart salgssignal.",
+      "rationale": "Hold – RSI 63, noe overkjøpt men ikke klart salgssignal.",
       "reasons": [
-        "RSI 64 – overkjøpt (–15)",
+        "RSI 63 – overkjøpt (–15)",
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
         "MACD histogram positivt og stigende (+20)",
-        "Kurs nær øvre Bollinger-band (1.28) (–15)"
+        "Kurs nær øvre Bollinger-band (1.25) (–15)"
       ],
-      "rsi": 63.9,
-      "atr_pct": 3.61,
-      "pe_ratio": 12.600536,
+      "rsi": 63.0,
+      "atr_pct": 3.67,
+      "pe_ratio": 12.513405,
       "div_yield_pct": 794.0,
       "history": [
         {
@@ -6028,10 +6026,10 @@
         {
           "date": "2026-04-29",
           "open": 182.8,
-          "high": 189.0,
+          "high": 189.7,
           "low": 182.6,
-          "close": 188.0,
-          "volume": 234394
+          "close": 186.7,
+          "volume": 614353
         }
       ]
     },
@@ -6039,20 +6037,21 @@
       "symbol": "FRO.OL",
       "name": "Frontline",
       "sector": "Tanker Shipping",
-      "price": 337.5,
+      "price": 334.5,
       "prev_close": 336.1,
-      "signal": "HOLD",
-      "score": 12,
+      "signal": "SELG",
+      "score": -26,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – mixed signaler, ingen klar retning (score +12).",
+      "rationale": "Salgssignal (score -26): kurs under sma20 (–8).",
       "reasons": [
-        "Kurs > SMA20 > SMA50 – opptrend (+20)",
+        "Kurs under SMA20 (–8)",
+        "Kurs krysset under SMA20 i dag (–10)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 47.3,
-      "atr_pct": 4.41,
-      "pe_ratio": 21.293375,
+      "rsi": 46.1,
+      "atr_pct": 4.46,
+      "pe_ratio": 21.104101,
       "div_yield_pct": 512.0,
       "history": [
         {
@@ -6531,9 +6530,9 @@
           "date": "2026-04-29",
           "open": 336.3,
           "high": 341.9,
-          "low": 335.2,
-          "close": 337.5,
-          "volume": 244403
+          "low": 334.5,
+          "close": 334.5,
+          "volume": 666307
         }
       ]
     },
@@ -6541,7 +6540,7 @@
       "symbol": "HAFNI.OL",
       "name": "Hafnia",
       "sector": "Tanker Shipping",
-      "price": 82.05,
+      "price": 82.35,
       "prev_close": 80.5,
       "signal": "KJØP",
       "score": 25,
@@ -6551,11 +6550,11 @@
       "reasons": [
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
         "MACD histogram positivt og stigende (+20)",
-        "Kurs nær øvre Bollinger-band (1.05) (–15)"
+        "Kurs nær øvre Bollinger-band (1.07) (–15)"
       ],
-      "rsi": 54.1,
-      "atr_pct": 3.35,
-      "pe_ratio": 13.128,
+      "rsi": 54.7,
+      "atr_pct": 3.45,
+      "pe_ratio": 13.176,
       "div_yield_pct": 839.0,
       "history": [
         {
@@ -7033,10 +7032,10 @@
         {
           "date": "2026-04-29",
           "open": 81.1,
-          "high": 82.2,
+          "high": 83.5,
           "low": 80.25,
-          "close": 82.05,
-          "volume": 410801
+          "close": 82.35,
+          "volume": 1138910
         }
       ]
     },
@@ -7044,20 +7043,21 @@
       "symbol": "ODF.OL",
       "name": "Odfjell SE",
       "sector": "Kjemikalietanker",
-      "price": 117.2,
+      "price": 115.0,
       "prev_close": 117.4,
       "signal": "HOLD",
-      "score": 0,
+      "score": -13,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 40 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 37 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
+        "RSI 37 – oversolgt (+15)",
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
-        "MACD histogram positivt og stigende (+20)"
+        "MACD histogram negativt (–8)"
       ],
-      "rsi": 40.5,
-      "atr_pct": 2.79,
-      "pe_ratio": 6.4113784,
+      "rsi": 37.2,
+      "atr_pct": 2.87,
+      "pe_ratio": 6.291028,
       "div_yield_pct": 807.0,
       "history": [
         {
@@ -7536,9 +7536,9 @@
           "date": "2026-04-29",
           "open": 115.6,
           "high": 118.8,
-          "low": 115.6,
-          "close": 117.2,
-          "volume": 10477
+          "low": 115.2,
+          "close": 115.0,
+          "volume": 31984
         }
       ]
     },
@@ -7546,7 +7546,7 @@
       "symbol": "2020.OL",
       "name": "2020 Bulkers",
       "sector": "Bulk Shipping",
-      "price": 5.09,
+      "price": 4.32,
       "prev_close": 131.8,
       "signal": "HOLD",
       "score": -5,
@@ -7558,11 +7558,11 @@
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
         "MACD histogram negativt og fallende (–20)",
         "Kurs nær nedre Bollinger-band (-0.56) (+15)",
-        "Høyt volum på nedgang (1.6x snitt) (–10)"
+        "Høyt volum på nedgang (4.4x snitt) (–10)"
       ],
       "rsi": 2.3,
-      "atr_pct": 184.79,
-      "pe_ratio": 0.42269328,
+      "atr_pct": 217.32,
+      "pe_ratio": 0.35943475,
       "div_yield_pct": 884.0,
       "history": [
         {
@@ -8040,10 +8040,10 @@
         {
           "date": "2026-04-29",
           "open": 2.56,
-          "high": 5.09,
+          "high": 5.47,
           "low": 2.56,
-          "close": 5.09,
-          "volume": 612435
+          "close": 4.32,
+          "volume": 1964462
         }
       ]
     },
@@ -8051,21 +8051,21 @@
       "symbol": "MPCC.OL",
       "name": "MPC Container Ships",
       "sector": "Container Shipping",
-      "price": 21.48,
+      "price": 21.2,
       "prev_close": 21.39,
       "signal": "HOLD",
       "score": 14,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 21 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 17 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 21 – kraftig oversolgt (+30)",
+        "RSI 17 – kraftig oversolgt (+30)",
         "Kurs under SMA20 (–8)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 20.9,
-      "atr_pct": 2.73,
-      "pe_ratio": 4.348178,
+      "rsi": 16.7,
+      "atr_pct": 2.77,
+      "pe_ratio": 4.291498,
       "div_yield_pct": 900.0,
       "history": [
         {
@@ -8545,8 +8545,8 @@
           "open": 21.46,
           "high": 21.63,
           "low": 21.2,
-          "close": 21.48,
-          "volume": 294587
+          "close": 21.2,
+          "volume": 923544
         }
       ]
     },
@@ -8554,21 +8554,21 @@
       "symbol": "HAUTO.OL",
       "name": "Hoegh Autoliners",
       "sector": "Bil Shipping",
-      "price": 132.9,
+      "price": 132.2,
       "prev_close": 131.6,
       "signal": "HOLD",
       "score": 14,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 29 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 27 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 29 – kraftig oversolgt (+30)",
+        "RSI 27 – kraftig oversolgt (+30)",
         "Kurs under SMA20 (–8)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 28.9,
-      "atr_pct": 2.99,
-      "pe_ratio": 5.296931,
+      "rsi": 26.6,
+      "atr_pct": 3.0,
+      "pe_ratio": 5.2690315,
       "div_yield_pct": 1716.0,
       "history": [
         {
@@ -9048,8 +9048,8 @@
           "open": 131.6,
           "high": 133.8,
           "low": 130.6,
-          "close": 132.9,
-          "volume": 147698
+          "close": 132.2,
+          "volume": 332199
         }
       ]
     },
@@ -9057,7 +9057,7 @@
       "symbol": "NAS.OL",
       "name": "Norwegian Air Shuttle",
       "sector": "Luftfart",
-      "price": 14.25,
+      "price": 14.26,
       "prev_close": 14.25,
       "signal": "KJØP",
       "score": 38,
@@ -9071,7 +9071,7 @@
       ],
       "rsi": 44.4,
       "atr_pct": 3.55,
-      "pe_ratio": 4.79798,
+      "pe_ratio": 4.799663,
       "div_yield_pct": 1205.0,
       "history": [
         {
@@ -9551,8 +9551,8 @@
           "open": 14.2,
           "high": 14.38,
           "low": 14.08,
-          "close": 14.25,
-          "volume": 5125563
+          "close": 14.26,
+          "volume": 9722333
         }
       ]
     },
@@ -9560,21 +9560,21 @@
       "symbol": "DNB.OL",
       "name": "DNB Bank",
       "sector": "Bank",
-      "price": 278.5,
+      "price": 277.9,
       "prev_close": 278.9,
       "signal": "HOLD",
-      "score": -1,
+      "score": -13,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 32 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 31 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 32 – oversolgt (+15)",
+        "RSI 31 – oversolgt (+15)",
         "Kurs under SMA20 (–8)",
-        "MACD histogram negativt (–8)"
+        "MACD histogram negativt og fallende (–20)"
       ],
-      "rsi": 32.0,
+      "rsi": 30.8,
       "atr_pct": 1.67,
-      "pe_ratio": 9.98924,
+      "pe_ratio": 9.967719,
       "div_yield_pct": 647.0,
       "history": [
         {
@@ -10054,8 +10054,8 @@
           "open": 278.0,
           "high": 279.0,
           "low": 276.5,
-          "close": 278.5,
-          "volume": 294779
+          "close": 277.9,
+          "volume": 1833780
         }
       ]
     },
@@ -10063,21 +10063,22 @@
       "symbol": "STB.OL",
       "name": "Storebrand",
       "sector": "Forsikring",
-      "price": 174.9,
+      "price": 173.5,
       "prev_close": 168.1,
       "signal": "KJØP",
-      "score": 22,
-      "suggested_pct": 14.0,
-      "suggested_nok": 10500,
+      "score": 32,
+      "suggested_pct": 16.0,
+      "suggested_nok": 13000,
       "rationale": "Kjøpssignal: kurs > sma20 > sma50. I tillegg kurs krysset over sma20 i dag (+10).",
       "reasons": [
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
         "Kurs krysset over SMA20 i dag (+10)",
-        "MACD histogram negativt (–8)"
+        "MACD histogram negativt (–8)",
+        "Høyt volum på oppgang (2.0x snitt) (+10)"
       ],
-      "rsi": 53.4,
-      "atr_pct": 1.52,
-      "pe_ratio": 14.974314,
+      "rsi": 50.0,
+      "atr_pct": 1.6,
+      "pe_ratio": 14.854452,
       "div_yield_pct": 322.0,
       "history": [
         {
@@ -10555,10 +10556,10 @@
         {
           "date": "2026-04-29",
           "open": 172.6,
-          "high": 175.2,
+          "high": 177.0,
           "low": 169.5,
-          "close": 174.9,
-          "volume": 645370
+          "close": 173.5,
+          "volume": 1459861
         }
       ]
     },
@@ -10566,7 +10567,7 @@
       "symbol": "GJF.OL",
       "name": "Gjensidige Forsikring",
       "sector": "Forsikring",
-      "price": 263.4,
+      "price": 260.8,
       "prev_close": 254.8,
       "signal": "KJØP",
       "score": 22,
@@ -10578,9 +10579,9 @@
         "Kurs krysset over SMA20 i dag (+10)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 52.7,
-      "atr_pct": 1.8,
-      "pe_ratio": 20.971336,
+      "rsi": 49.1,
+      "atr_pct": 1.82,
+      "pe_ratio": 20.76433,
       "div_yield_pct": 392.0,
       "history": [
         {
@@ -11060,8 +11061,8 @@
           "open": 263.6,
           "high": 264.8,
           "low": 259.4,
-          "close": 263.4,
-          "volume": 253711
+          "close": 260.8,
+          "volume": 657676
         }
       ]
     },
@@ -11069,20 +11070,20 @@
       "symbol": "MING.OL",
       "name": "SpareBank 1 SMN",
       "sector": "Bank",
-      "price": 207.7,
+      "price": 207.2,
       "prev_close": 207.3,
       "signal": "HOLD",
       "score": -16,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 42 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 41 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
         "Kurs under SMA20 (–8)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 42.3,
-      "atr_pct": 1.36,
-      "pe_ratio": 10.840292,
+      "rsi": 40.9,
+      "atr_pct": 1.37,
+      "pe_ratio": 10.814197,
       "div_yield_pct": 650.0,
       "history": [
         {
@@ -11561,9 +11562,9 @@
           "date": "2026-04-29",
           "open": 208.95,
           "high": 208.95,
-          "low": 206.9,
-          "close": 207.7,
-          "volume": 13697
+          "low": 206.7,
+          "close": 207.2,
+          "volume": 49983
         }
       ]
     },
@@ -11571,7 +11572,7 @@
       "symbol": "NONG.OL",
       "name": "SpareBank 1 Nord-Norge",
       "sector": "Bank",
-      "price": 157.58,
+      "price": 157.2,
       "prev_close": 158.1,
       "signal": "SELG",
       "score": -26,
@@ -11583,9 +11584,9 @@
         "Kurs krysset under SMA20 i dag (–10)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 45.6,
-      "atr_pct": 1.57,
-      "pe_ratio": 10.306083,
+      "rsi": 44.8,
+      "atr_pct": 1.59,
+      "pe_ratio": 10.281229,
       "div_yield_pct": 537.0,
       "history": [
         {
@@ -12064,9 +12065,9 @@
           "date": "2026-04-29",
           "open": 158.02,
           "high": 159.02,
-          "low": 157.4,
-          "close": 157.58,
-          "volume": 13532
+          "low": 157.16,
+          "close": 157.2,
+          "volume": 44639
         }
       ]
     },
@@ -12074,21 +12075,21 @@
       "symbol": "PROT.OL",
       "name": "Protector Forsikring",
       "sector": "Forsikring",
-      "price": 470.6,
+      "price": 465.6,
       "prev_close": 468.0,
-      "signal": "SELG",
-      "score": -25,
+      "signal": "HOLD",
+      "score": -10,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Salgssignal (score -25): rsi 33.",
+      "rationale": "Hold – RSI 28 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 33 – oversolgt (+15)",
+        "RSI 28 – kraftig oversolgt (+30)",
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
         "MACD histogram negativt og fallende (–20)"
       ],
-      "rsi": 32.7,
-      "atr_pct": 2.22,
-      "pe_ratio": 19.192495,
+      "rsi": 28.0,
+      "atr_pct": 2.25,
+      "pe_ratio": 18.98858,
       "div_yield_pct": 683.0,
       "history": [
         {
@@ -12567,9 +12568,9 @@
           "date": "2026-04-29",
           "open": 469.2,
           "high": 473.0,
-          "low": 465.6,
-          "close": 470.6,
-          "volume": 32736
+          "low": 465.2,
+          "close": 465.6,
+          "volume": 96305
         }
       ]
     },
@@ -12577,21 +12578,21 @@
       "symbol": "MOWI.OL",
       "name": "Mowi",
       "sector": "Sjoemat",
-      "price": 203.8,
+      "price": 203.0,
       "prev_close": 204.8,
       "signal": "HOLD",
       "score": 2,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 22 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 21 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 22 – kraftig oversolgt (+30)",
+        "RSI 21 – kraftig oversolgt (+30)",
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 22.0,
-      "atr_pct": 2.04,
-      "pe_ratio": 13.523558,
+      "rsi": 21.4,
+      "atr_pct": 2.06,
+      "pe_ratio": 13.470471,
       "div_yield_pct": 300.0,
       "history": [
         {
@@ -13070,9 +13071,9 @@
           "date": "2026-04-29",
           "open": 204.4,
           "high": 205.4,
-          "low": 203.6,
-          "close": 203.8,
-          "volume": 194432
+          "low": 203.2,
+          "close": 203.0,
+          "volume": 841588
         }
       ]
     },
@@ -13080,21 +13081,21 @@
       "symbol": "SALM.OL",
       "name": "SalMar",
       "sector": "Sjoemat",
-      "price": 547.5,
+      "price": 545.5,
       "prev_close": 551.5,
       "signal": "HOLD",
       "score": -13,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 37 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 36 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 37 – oversolgt (+15)",
+        "RSI 36 – oversolgt (+15)",
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 37.0,
-      "atr_pct": 2.88,
-      "pe_ratio": 66.444176,
+      "rsi": 36.3,
+      "atr_pct": 2.91,
+      "pe_ratio": 66.20146,
       "div_yield_pct": 181.0,
       "history": [
         {
@@ -13573,9 +13574,9 @@
           "date": "2026-04-29",
           "open": 548.5,
           "high": 555.5,
-          "low": 547.0,
-          "close": 547.5,
-          "volume": 31891
+          "low": 545.0,
+          "close": 545.5,
+          "volume": 154431
         }
       ]
     },
@@ -13583,7 +13584,7 @@
       "symbol": "LSG.OL",
       "name": "Leroey Seafood",
       "sector": "Sjoemat",
-      "price": 45.08,
+      "price": 44.96,
       "prev_close": 45.44,
       "signal": "HOLD",
       "score": 2,
@@ -13595,9 +13596,9 @@
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 5.3,
-      "atr_pct": 2.06,
-      "pe_ratio": 73.90164,
+      "rsi": 5.2,
+      "atr_pct": 2.12,
+      "pe_ratio": 73.70492,
       "div_yield_pct": 549.0,
       "history": [
         {
@@ -14076,9 +14077,9 @@
           "date": "2026-04-29",
           "open": 45.62,
           "high": 45.62,
-          "low": 45.04,
-          "close": 45.08,
-          "volume": 239904
+          "low": 44.74,
+          "close": 44.96,
+          "volume": 665476
         }
       ]
     },
@@ -14086,21 +14087,21 @@
       "symbol": "BAKKA.OL",
       "name": "Bakkafrost",
       "sector": "Sjoemat",
-      "price": 453.4,
+      "price": 452.0,
       "prev_close": 450.4,
       "signal": "HOLD",
       "score": -1,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 36 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 35 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 36 – oversolgt (+15)",
+        "RSI 35 – oversolgt (+15)",
         "Kurs under SMA20 (–8)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 36.5,
-      "atr_pct": 2.79,
-      "pe_ratio": 34.71669,
+      "rsi": 35.4,
+      "atr_pct": 2.8,
+      "pe_ratio": 34.609493,
       "div_yield_pct": 112.99999999999999,
       "history": [
         {
@@ -14580,8 +14581,8 @@
           "open": 450.8,
           "high": 455.8,
           "low": 450.8,
-          "close": 453.4,
-          "volume": 31988
+          "close": 452.0,
+          "volume": 89285
         }
       ]
     },
@@ -14589,7 +14590,7 @@
       "symbol": "AUSS.OL",
       "name": "Austevoll Seafood",
       "sector": "Sjoemat",
-      "price": 92.6,
+      "price": 92.3,
       "prev_close": 92.9,
       "signal": "HOLD",
       "score": -8,
@@ -14600,11 +14601,11 @@
         "RSI 1 – kraftig oversolgt (+30)",
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
         "MACD histogram negativt (–8)",
-        "Høyt volum på nedgang (1.7x snitt) (–10)"
+        "Høyt volum på nedgang (2.2x snitt) (–10)"
       ],
       "rsi": 0.8,
-      "atr_pct": 1.87,
-      "pe_ratio": 42.090908,
+      "atr_pct": 1.89,
+      "pe_ratio": 41.954544,
       "div_yield_pct": 699.0,
       "history": [
         {
@@ -15083,9 +15084,9 @@
           "date": "2026-04-29",
           "open": 93.0,
           "high": 93.4,
-          "low": 92.3,
-          "close": 92.6,
-          "volume": 227517
+          "low": 92.2,
+          "close": 92.3,
+          "volume": 295980
         }
       ]
     },
@@ -15093,7 +15094,7 @@
       "symbol": "AKVA.OL",
       "name": "AKVA Group",
       "sector": "Havbruksteknologi",
-      "price": 127.0,
+      "price": 128.0,
       "prev_close": 126.5,
       "signal": "HOLD",
       "score": 0,
@@ -15104,9 +15105,9 @@
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
         "MACD histogram negativt og fallende (–20)"
       ],
-      "rsi": 53.0,
-      "atr_pct": 5.31,
-      "pe_ratio": 25.0,
+      "rsi": 54.0,
+      "atr_pct": 5.57,
+      "pe_ratio": 25.19685,
       "div_yield_pct": 156.0,
       "history": [
         {
@@ -15584,10 +15585,10 @@
         {
           "date": "2026-04-29",
           "open": 128.5,
-          "high": 128.5,
-          "low": 127.0,
-          "close": 127.0,
-          "volume": 508
+          "high": 131.0,
+          "low": 124.0,
+          "close": 128.0,
+          "volume": 6720
         }
       ]
     },
@@ -15595,21 +15596,20 @@
       "symbol": "AKBM.OL",
       "name": "Aker BioMarine",
       "sector": "Marin Biotek",
-      "price": 97.8,
+      "price": 98.4,
       "prev_close": 97.1,
-      "signal": "HOLD",
-      "score": 5,
+      "signal": "SELG",
+      "score": -25,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 29 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Salgssignal (score -25): rsi 31.",
       "reasons": [
-        "RSI 29 – kraftig oversolgt (+30)",
+        "RSI 31 – oversolgt (+15)",
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
-        "MACD histogram negativt og fallende (–20)",
-        "Kurs nær nedre Bollinger-band (0.01) (+15)"
+        "MACD histogram negativt og fallende (–20)"
       ],
-      "rsi": 29.4,
-      "atr_pct": 2.78,
+      "rsi": 31.2,
+      "atr_pct": 2.77,
       "pe_ratio": null,
       "div_yield_pct": 0,
       "history": [
@@ -16090,8 +16090,8 @@
           "open": 95.6,
           "high": 100.0,
           "low": 95.6,
-          "close": 97.8,
-          "volume": 6886
+          "close": 98.4,
+          "volume": 10875
         }
       ]
     },
@@ -16099,7 +16099,7 @@
       "symbol": "NHY.OL",
       "name": "Norsk Hydro",
       "sector": "Aluminium",
-      "price": 103.7,
+      "price": 103.45,
       "prev_close": 105.35,
       "signal": "SELG",
       "score": -38,
@@ -16111,9 +16111,9 @@
         "Kurs krysset under SMA20 i dag (–10)",
         "MACD histogram negativt og fallende (–20)"
       ],
-      "rsi": 42.7,
-      "atr_pct": 2.88,
-      "pe_ratio": 30.410555,
+      "rsi": 42.2,
+      "atr_pct": 2.89,
+      "pe_ratio": 30.337242,
       "div_yield_pct": 284.0,
       "history": [
         {
@@ -16593,8 +16593,8 @@
           "open": 106.5,
           "high": 109.5,
           "low": 102.3,
-          "close": 103.7,
-          "volume": 1864552
+          "close": 103.45,
+          "volume": 3975327
         }
       ]
     },
@@ -16602,20 +16602,21 @@
       "symbol": "YAR.OL",
       "name": "Yara International",
       "sector": "Gjodsel/Kjemi",
-      "price": 536.2,
+      "price": 532.2,
       "prev_close": 535.4,
       "signal": "HOLD",
-      "score": -16,
+      "score": -1,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 41 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 39 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
+        "RSI 39 – oversolgt (+15)",
         "Kurs under SMA20 (–8)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 40.6,
-      "atr_pct": 3.41,
-      "pe_ratio": 10.452242,
+      "rsi": 39.3,
+      "atr_pct": 3.47,
+      "pe_ratio": 10.3742695,
       "div_yield_pct": 409.99999999999994,
       "history": [
         {
@@ -17094,9 +17095,9 @@
           "date": "2026-04-29",
           "open": 545.0,
           "high": 545.0,
-          "low": 533.4,
-          "close": 536.2,
-          "volume": 84691
+          "low": 530.4,
+          "close": 532.2,
+          "volume": 417811
         }
       ]
     },
@@ -17104,21 +17105,21 @@
       "symbol": "KOG.OL",
       "name": "Kongsberg Gruppen",
       "sector": "Forsvar/Tech",
-      "price": 305.6,
+      "price": 303.8,
       "prev_close": 302.5,
       "signal": "HOLD",
       "score": 2,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 17 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 16 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 17 – kraftig oversolgt (+30)",
+        "RSI 16 – kraftig oversolgt (+30)",
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 17.0,
-      "atr_pct": 5.79,
-      "pe_ratio": 64.47258,
+      "rsi": 16.1,
+      "atr_pct": 5.82,
+      "pe_ratio": 64.09283,
       "div_yield_pct": 72.0,
       "history": [
         {
@@ -17596,10 +17597,10 @@
         {
           "date": "2026-04-29",
           "open": 304.9,
-          "high": 305.7,
+          "high": 305.8,
           "low": 302.3,
-          "close": 305.6,
-          "volume": 245699
+          "close": 303.8,
+          "volume": 870318
         }
       ]
     },
@@ -17607,21 +17608,21 @@
       "symbol": "AKER.OL",
       "name": "Aker ASA",
       "sector": "Industri",
-      "price": 1062.0,
+      "price": 1052.0,
       "prev_close": 1042.0,
       "signal": "KJØP",
-      "score": 25,
+      "score": 22,
       "suggested_pct": 14.0,
-      "suggested_nok": 11000,
-      "rationale": "Kjøpssignal: kurs > sma20 > sma50. I tillegg macd histogram positivt og stigende (+20).",
+      "suggested_nok": 10500,
+      "rationale": "Kjøpssignal: kurs > sma20 > sma50. I tillegg macd histogram negativt (–8).",
       "reasons": [
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
-        "MACD histogram positivt og stigende (+20)",
-        "Kurs nær øvre Bollinger-band (1.03) (–15)"
+        "MACD histogram negativt (–8)",
+        "Høyt volum på oppgang (1.6x snitt) (+10)"
       ],
-      "rsi": 59.3,
-      "atr_pct": 2.44,
-      "pe_ratio": 19.525648,
+      "rsi": 57.0,
+      "atr_pct": 2.47,
+      "pe_ratio": 19.341791,
       "div_yield_pct": 787.0,
       "history": [
         {
@@ -18099,10 +18100,10 @@
         {
           "date": "2026-04-29",
           "open": 1046.0,
-          "high": 1064.0,
+          "high": 1066.0,
           "low": 1044.0,
-          "close": 1062.0,
-          "volume": 20559
+          "close": 1052.0,
+          "volume": 95258
         }
       ]
     },
@@ -18110,21 +18111,21 @@
       "symbol": "ORK.OL",
       "name": "Orkla",
       "sector": "Forbruksvarer",
-      "price": 113.3,
+      "price": 112.8,
       "prev_close": 113.0,
       "signal": "HOLD",
-      "score": 2,
+      "score": -10,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 30 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 25 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 30 – kraftig oversolgt (+30)",
+        "RSI 25 – kraftig oversolgt (+30)",
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
-        "MACD histogram negativt (–8)"
+        "MACD histogram negativt og fallende (–20)"
       ],
-      "rsi": 29.7,
-      "atr_pct": 1.16,
-      "pe_ratio": 17.758621,
+      "rsi": 25.4,
+      "atr_pct": 1.17,
+      "pe_ratio": 17.68025,
       "div_yield_pct": 354.0,
       "history": [
         {
@@ -18602,10 +18603,10 @@
         {
           "date": "2026-04-29",
           "open": 113.1,
-          "high": 113.5,
+          "high": 113.6,
           "low": 112.5,
-          "close": 113.3,
-          "volume": 250054
+          "close": 112.8,
+          "volume": 1268990
         }
       ]
     },
@@ -18613,7 +18614,7 @@
       "symbol": "AFG.OL",
       "name": "AF Gruppen",
       "sector": "Bygg & Anlegg",
-      "price": 175.4,
+      "price": 175.8,
       "prev_close": 174.4,
       "signal": "KJØP",
       "score": 28,
@@ -18624,9 +18625,9 @@
         "Kurs over SMA20 (+8)",
         "MACD histogram positivt og stigende (+20)"
       ],
-      "rsi": 49.5,
-      "atr_pct": 1.6,
-      "pe_ratio": 17.681452,
+      "rsi": 50.5,
+      "atr_pct": 1.61,
+      "pe_ratio": 17.721775,
       "div_yield_pct": 371.0,
       "history": [
         {
@@ -19104,10 +19105,10 @@
         {
           "date": "2026-04-29",
           "open": 176.0,
-          "high": 176.0,
+          "high": 176.2,
           "low": 174.0,
-          "close": 175.4,
-          "volume": 10933
+          "close": 175.8,
+          "volume": 33854
         }
       ]
     },
@@ -19115,21 +19116,22 @@
       "symbol": "MULTI.OL",
       "name": "Multiconsult",
       "sector": "Radgivning",
-      "price": 156.4,
+      "price": 156.0,
       "prev_close": 158.2,
-      "signal": "SELG",
-      "score": -38,
+      "signal": "STERKT SELG",
+      "score": -48,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Salgssignal (score -38): kurs under sma20 (–8).",
+      "rationale": "Sterkt salgssignal: kurs under sma20 (–8). Vurder å redusere posisjon.",
       "reasons": [
         "Kurs under SMA20 (–8)",
         "Kurs krysset under SMA20 i dag (–10)",
-        "MACD histogram negativt og fallende (–20)"
+        "MACD histogram negativt og fallende (–20)",
+        "Høyt volum på nedgang (4.9x snitt) (–10)"
       ],
-      "rsi": 45.4,
+      "rsi": 44.4,
       "atr_pct": 1.92,
-      "pe_ratio": 16.963123,
+      "pe_ratio": 16.919739,
       "div_yield_pct": 314.0,
       "history": [
         {
@@ -19609,8 +19611,8 @@
           "open": 160.0,
           "high": 160.0,
           "low": 156.0,
-          "close": 156.4,
-          "volume": 6203
+          "close": 156.0,
+          "volume": 39353
         }
       ]
     },
@@ -19618,20 +19620,20 @@
       "symbol": "HEX.OL",
       "name": "Hexagon Composites",
       "sector": "Kompositter",
-      "price": 10.74,
+      "price": 10.68,
       "prev_close": 10.79,
       "signal": "HOLD",
       "score": -15,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 69, noe overkjøpt men ikke klart salgssignal.",
+      "rationale": "Hold – RSI 68, noe overkjøpt men ikke klart salgssignal.",
       "reasons": [
-        "RSI 69 – overkjøpt (–15)",
+        "RSI 68 – overkjøpt (–15)",
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
         "MACD histogram negativt og fallende (–20)"
       ],
-      "rsi": 69.4,
-      "atr_pct": 3.93,
+      "rsi": 67.8,
+      "atr_pct": 4.03,
       "pe_ratio": null,
       "div_yield_pct": 0,
       "history": [
@@ -20111,9 +20113,9 @@
           "date": "2026-04-29",
           "open": 10.87,
           "high": 10.87,
-          "low": 10.72,
-          "close": 10.74,
-          "volume": 385275
+          "low": 10.6,
+          "close": 10.68,
+          "volume": 648860
         }
       ]
     },
@@ -20121,22 +20123,22 @@
       "symbol": "NSKOG.OL",
       "name": "Norske Skog",
       "sector": "Papir/Skog",
-      "price": 48.25,
+      "price": 47.65,
       "prev_close": 47.5,
       "signal": "HOLD",
       "score": -5,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 75, noe overkjøpt men ikke klart salgssignal.",
+      "rationale": "Hold – RSI 74, noe overkjøpt men ikke klart salgssignal.",
       "reasons": [
-        "RSI 75 – kraftig overkjøpt (–30)",
+        "RSI 74 – kraftig overkjøpt (–30)",
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
         "MACD histogram positivt og stigende (+20)",
-        "Kurs nær øvre Bollinger-band (1.03) (–15)"
+        "Kurs nær øvre Bollinger-band (1.00) (–15)"
       ],
-      "rsi": 75.0,
-      "atr_pct": 5.51,
-      "pe_ratio": 12.002487,
+      "rsi": 74.3,
+      "atr_pct": 5.58,
+      "pe_ratio": 11.853234,
       "div_yield_pct": 0,
       "history": [
         {
@@ -20616,8 +20618,8 @@
           "open": 48.5,
           "high": 48.55,
           "low": 47.3,
-          "close": 48.25,
-          "volume": 177339
+          "close": 47.65,
+          "volume": 263273
         }
       ]
     },
@@ -20625,7 +20627,7 @@
       "symbol": "ENTRA.OL",
       "name": "Entra",
       "sector": "Eiendom",
-      "price": 105.6,
+      "price": 105.0,
       "prev_close": 106.4,
       "signal": "SELG",
       "score": -22,
@@ -20637,9 +20639,9 @@
         "Kurs krysset under SMA20 i dag (–10)",
         "MACD histogram positivt (+8)"
       ],
-      "rsi": 48.9,
-      "atr_pct": 1.83,
-      "pe_ratio": 16.70886,
+      "rsi": 46.7,
+      "atr_pct": 1.84,
+      "pe_ratio": 16.613924,
       "div_yield_pct": 208.0,
       "history": [
         {
@@ -21119,8 +21121,8 @@
           "open": 106.0,
           "high": 106.2,
           "low": 105.6,
-          "close": 105.6,
-          "volume": 6015
+          "close": 105.0,
+          "volume": 61615
         }
       ]
     },
@@ -21128,21 +21130,22 @@
       "symbol": "BONHR.OL",
       "name": "Bonheur",
       "sector": "Fornybar/Diversif",
-      "price": 263.0,
+      "price": 261.5,
       "prev_close": 253.0,
       "signal": "KJØP",
-      "score": 25,
-      "suggested_pct": 14.0,
-      "suggested_nok": 11000,
-      "rationale": "Kjøpssignal: rsi 70. I tillegg kurs > sma20 > sma50.",
+      "score": 35,
+      "suggested_pct": 16.0,
+      "suggested_nok": 13500,
+      "rationale": "Kjøpssignal: rsi 69. I tillegg kurs > sma20 > sma50.",
       "reasons": [
-        "RSI 70 – overkjøpt (–15)",
+        "RSI 69 – overkjøpt (–15)",
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
-        "MACD histogram positivt og stigende (+20)"
+        "MACD histogram positivt og stigende (+20)",
+        "Høyt volum på oppgang (2.0x snitt) (+10)"
       ],
-      "rsi": 69.8,
-      "atr_pct": 3.12,
-      "pe_ratio": 7.8742514,
+      "rsi": 68.7,
+      "atr_pct": 3.15,
+      "pe_ratio": 7.829341,
       "div_yield_pct": 289.0,
       "history": [
         {
@@ -21620,10 +21623,10 @@
         {
           "date": "2026-04-29",
           "open": 256.5,
-          "high": 263.0,
+          "high": 263.5,
           "low": 256.5,
-          "close": 263.0,
-          "volume": 23904
+          "close": 261.5,
+          "volume": 85309
         }
       ]
     },
@@ -21631,22 +21634,23 @@
       "symbol": "TEL.OL",
       "name": "Telenor",
       "sector": "Telekommunikasjon",
-      "price": 152.3,
+      "price": 150.3,
       "prev_close": 152.7,
       "signal": "HOLD",
-      "score": 5,
+      "score": -5,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 19 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 18 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 19 – kraftig oversolgt (+30)",
+        "RSI 18 – kraftig oversolgt (+30)",
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
         "MACD histogram negativt og fallende (–20)",
-        "Kurs nær nedre Bollinger-band (-0.07) (+15)"
+        "Kurs nær nedre Bollinger-band (-0.13) (+15)",
+        "Høyt volum på nedgang (1.7x snitt) (–10)"
       ],
-      "rsi": 19.2,
-      "atr_pct": 2.37,
-      "pe_ratio": 12.392189,
+      "rsi": 17.9,
+      "atr_pct": 2.45,
+      "pe_ratio": 12.229455,
       "div_yield_pct": 634.0,
       "history": [
         {
@@ -22125,9 +22129,9 @@
           "date": "2026-04-29",
           "open": 153.6,
           "high": 153.7,
-          "low": 151.4,
-          "close": 152.3,
-          "volume": 658018
+          "low": 150.3,
+          "close": 150.3,
+          "volume": 2419788
         }
       ]
     },
@@ -22135,21 +22139,22 @@
       "symbol": "NOD.OL",
       "name": "Nordic Semiconductor",
       "sector": "Halvledere",
-      "price": 184.4,
+      "price": 188.4,
       "prev_close": 186.5,
       "signal": "HOLD",
-      "score": -2,
+      "score": -12,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 73, noe overkjøpt men ikke klart salgssignal.",
+      "rationale": "Hold – RSI 79, noe overkjøpt men ikke klart salgssignal.",
       "reasons": [
-        "RSI 73 – kraftig overkjøpt (–30)",
+        "RSI 79 – kraftig overkjøpt (–30)",
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
-        "MACD histogram positivt (+8)"
+        "MACD histogram positivt (+8)",
+        "Høyt volum på nedgang (1.8x snitt) (–10)"
       ],
-      "rsi": 73.3,
-      "atr_pct": 4.04,
-      "pe_ratio": 154.95798,
+      "rsi": 79.2,
+      "atr_pct": 3.95,
+      "pe_ratio": 158.31932,
       "div_yield_pct": 0,
       "history": [
         {
@@ -22629,8 +22634,8 @@
           "open": 188.8,
           "high": 191.6,
           "low": 180.8,
-          "close": 184.4,
-          "volume": 957283
+          "close": 188.4,
+          "volume": 1652620
         }
       ]
     },
@@ -22638,21 +22643,21 @@
       "symbol": "TOM.OL",
       "name": "Tomra Systems",
       "sector": "Teknologi",
-      "price": 93.9,
+      "price": 94.8,
       "prev_close": 90.55,
       "signal": "HOLD",
-      "score": 2,
+      "score": -13,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 29 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 30 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 29 – kraftig oversolgt (+30)",
+        "RSI 30 – oversolgt (+15)",
         "Kurs < SMA20 < SMA50 – nedtrend (–20)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 29.0,
-      "atr_pct": 5.79,
-      "pe_ratio": 31.83051,
+      "rsi": 30.2,
+      "atr_pct": 5.76,
+      "pe_ratio": 32.135593,
       "div_yield_pct": 238.0,
       "history": [
         {
@@ -23130,10 +23135,10 @@
         {
           "date": "2026-04-29",
           "open": 91.0,
-          "high": 94.55,
+          "high": 94.8,
           "low": 90.55,
-          "close": 93.9,
-          "volume": 1223772
+          "close": 94.8,
+          "volume": 2320505
         }
       ]
     },
@@ -23141,22 +23146,23 @@
       "symbol": "ATEA.OL",
       "name": "Atea",
       "sector": "IT-distribusjon",
-      "price": 154.8,
+      "price": 154.2,
       "prev_close": 155.2,
       "signal": "HOLD",
-      "score": -5,
+      "score": -15,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 76, noe overkjøpt men ikke klart salgssignal.",
+      "rationale": "Hold – RSI 75, noe overkjøpt men ikke klart salgssignal.",
       "reasons": [
-        "RSI 76 – kraftig overkjøpt (–30)",
+        "RSI 75 – kraftig overkjøpt (–30)",
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
         "MACD histogram positivt og stigende (+20)",
-        "Kurs nær øvre Bollinger-band (1.09) (–15)"
+        "Kurs nær øvre Bollinger-band (1.06) (–15)",
+        "Høyt volum på nedgang (1.8x snitt) (–10)"
       ],
-      "rsi": 75.9,
+      "rsi": 75.0,
       "atr_pct": 2.08,
-      "pe_ratio": 15.860656,
+      "pe_ratio": 15.79918,
       "div_yield_pct": 486.00000000000006,
       "history": [
         {
@@ -23636,8 +23642,8 @@
           "open": 154.0,
           "high": 156.8,
           "low": 153.8,
-          "close": 154.8,
-          "volume": 205615
+          "close": 154.2,
+          "volume": 313312
         }
       ]
     },
@@ -23645,7 +23651,7 @@
       "symbol": "BOUV.OL",
       "name": "Bouvet",
       "sector": "IT-tjenester",
-      "price": 51.5,
+      "price": 50.8,
       "prev_close": 52.5,
       "signal": "SELG",
       "score": -38,
@@ -23657,9 +23663,9 @@
         "Kurs krysset under SMA20 i dag (–10)",
         "MACD histogram negativt og fallende (–20)"
       ],
-      "rsi": 53.3,
-      "atr_pct": 2.29,
-      "pe_ratio": 14.884393,
+      "rsi": 50.0,
+      "atr_pct": 2.43,
+      "pe_ratio": 14.68208,
       "div_yield_pct": 571.0,
       "history": [
         {
@@ -24138,9 +24144,9 @@
           "date": "2026-04-29",
           "open": 52.8,
           "high": 52.9,
-          "low": 51.5,
-          "close": 51.5,
-          "volume": 166971
+          "low": 50.7,
+          "close": 50.8,
+          "volume": 291225
         }
       ]
     },
@@ -24148,21 +24154,22 @@
       "symbol": "NEL.OL",
       "name": "Nel ASA",
       "sector": "Hydrogen",
-      "price": 2.58,
+      "price": 2.57,
       "prev_close": 2.43,
-      "signal": "HOLD",
-      "score": 10,
-      "suggested_pct": 0,
-      "suggested_nok": 0,
-      "rationale": "Hold – RSI 64, noe overkjøpt men ikke klart salgssignal.",
+      "signal": "KJØP",
+      "score": 20,
+      "suggested_pct": 14.0,
+      "suggested_nok": 10000,
+      "rationale": "Kjøpssignal: rsi 63. I tillegg kurs > sma20 > sma50.",
       "reasons": [
-        "RSI 64 – overkjøpt (–15)",
+        "RSI 63 – overkjøpt (–15)",
         "Kurs > SMA20 > SMA50 – opptrend (+20)",
         "MACD histogram positivt og stigende (+20)",
-        "Kurs nær øvre Bollinger-band (0.98) (–15)"
+        "Kurs nær øvre Bollinger-band (0.96) (–15)",
+        "Høyt volum på oppgang (1.7x snitt) (+10)"
       ],
-      "rsi": 63.7,
-      "atr_pct": 7.1,
+      "rsi": 63.4,
+      "atr_pct": 7.14,
       "pe_ratio": null,
       "div_yield_pct": 0,
       "history": [
@@ -24643,8 +24650,8 @@
           "open": 2.45,
           "high": 2.62,
           "low": 2.43,
-          "close": 2.58,
-          "volume": 6277923
+          "close": 2.57,
+          "volume": 9048088
         }
       ]
     },
@@ -24652,21 +24659,21 @@
       "symbol": "SCATC.OL",
       "name": "Scatec",
       "sector": "Fornybar energi",
-      "price": 120.5,
+      "price": 119.5,
       "prev_close": 118.5,
       "signal": "HOLD",
       "score": 14,
       "suggested_pct": 0,
       "suggested_nok": 0,
-      "rationale": "Hold – RSI 29 antyder mulig støtte, men ikke nok momentum ennå.",
+      "rationale": "Hold – RSI 27 antyder mulig støtte, men ikke nok momentum ennå.",
       "reasons": [
-        "RSI 29 – kraftig oversolgt (+30)",
+        "RSI 27 – kraftig oversolgt (+30)",
         "Kurs under SMA20 (–8)",
         "MACD histogram negativt (–8)"
       ],
-      "rsi": 29.1,
-      "atr_pct": 3.03,
-      "pe_ratio": 19.689543,
+      "rsi": 27.0,
+      "atr_pct": 3.06,
+      "pe_ratio": 19.526144,
       "div_yield_pct": 0,
       "history": [
         {
@@ -25146,8 +25153,8 @@
           "open": 118.6,
           "high": 120.8,
           "low": 118.2,
-          "close": 120.5,
-          "volume": 54134
+          "close": 119.5,
+          "volume": 217017
         }
       ]
     }
@@ -25157,7 +25164,7 @@
       "symbol": "BZ=F",
       "name": "Brent raolje (USD/fat)",
       "type": "raavare",
-      "price": 107.55,
+      "price": 109.83,
       "prev_close": 111.26,
       "currency": "USD"
     },
@@ -25165,7 +25172,7 @@
       "symbol": "USDNOK=X",
       "name": "USD/NOK valutakurs",
       "type": "valuta",
-      "price": 9.28,
+      "price": 9.29,
       "prev_close": 9.28,
       "currency": "NOK"
     },
@@ -25173,7 +25180,7 @@
       "symbol": "EURNOK=X",
       "name": "EUR/NOK valutakurs",
       "type": "valuta",
-      "price": 10.86,
+      "price": 10.87,
       "prev_close": 10.88,
       "currency": "NOK"
     },
@@ -25181,7 +25188,7 @@
       "symbol": "GC=F",
       "name": "Gull (USD/oz)",
       "type": "raavare",
-      "price": 4577.1,
+      "price": 4557.4,
       "prev_close": 4591.5,
       "currency": "USD"
     },
@@ -25204,8 +25211,8 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "type": "indeks",
-      "price": 7138.8,
-      "prev_close": 7173.91,
+      "price": 7131.53,
+      "prev_close": 7138.8,
       "currency": "USD"
     }
   ],
